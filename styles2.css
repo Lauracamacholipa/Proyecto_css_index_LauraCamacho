@@ -60,8 +60,9 @@ header nav a {
     list-style: none; 
 }
 .planta-img-item {
-    width: 250px; 
+    width: calc(33.33% - 20px);
     text-align: left; 
+    margin: 10px 0;
 }
 .planta-img-item img {
     width: 100%;
@@ -120,7 +121,7 @@ footer {
 @media (max-width: 761px) {
     .plantas-img-container {
         display: flex; 
-        justify-content: space-between; 
+        justify-content: center; 
         flex-wrap: wrap; 
         list-style: none; 
         padding: 0; 
@@ -128,7 +129,7 @@ footer {
         width: 100%; 
     }
     .planta-img-item {
-        width: 48%; 
+        width: 100%; 
         text-align: left; 
         margin: 10px 0; 
     }
